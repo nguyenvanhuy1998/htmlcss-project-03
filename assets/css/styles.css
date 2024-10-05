@@ -14,3 +14,86 @@ body {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Common */
+
+.main-content {
+    width: 1170px;
+    margin: 0 auto;
+    max-width: calc(100% - 48px);
+
+}
+
+.btn {
+    display: inline-block;
+    min-width: 108px;
+    padding: 0 16px;
+    line-height: 48px;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background: #fff;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -44px;
+    z-index: 1;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 8px;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+    margin-right: 157px;
+}
+
+.nav a {
+    padding: 8px 20px;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #2F3A3B;
+}
+
+.nav a:hover,
+.nav li.active a {
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .action {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header .action-link {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #494949
+}
