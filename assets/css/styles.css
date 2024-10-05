@@ -149,7 +149,8 @@ a {
     font-size: 1.8rem;
     line-height: 1.77;
     color: #9DA6A5;
-    width: 374px;
+    text-align: left;
+    width: 82%;
 }
 
 .hero .action {
