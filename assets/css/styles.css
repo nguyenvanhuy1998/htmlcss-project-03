@@ -116,7 +116,7 @@ a {
 
 /* Hero */
 .hero {
-    margin-top: 42px;
+    padding: 42px 0 79px;
 }
 
 .hero .body {
