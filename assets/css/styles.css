@@ -555,8 +555,15 @@ a {
     margin-top: 264px;
 }
 
+.list-feedback {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback .item {
     display: flex;
+    flex-shrink: 0;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -621,4 +628,44 @@ a {
 .feedback .control-btn:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+.feedback .avatar-group {
+    height: 481px;
+    position: relative;
+}
+
+.feedback .avatar-group img {
+    position: absolute;
+
+}
+
+.feedback .avatar-group img:first-child {
+    top: 0;
+    left: 144px;
+}
+
+.feedback .avatar-group img:nth-child(2) {
+    top: 19;
+    right: 0
+}
+
+.feedback .avatar-group img:nth-child(3) {
+    top: 107px;
+    right: 171px;
+}
+
+.feedback .avatar-group img:nth-child(4) {
+    top: 258px;
+    left: 0;
+}
+
+.feedback .avatar-group img:nth-child(5) {
+    left: 212px;
+    bottom: 0;
+}
+
+.feedback .avatar-group img:last-child {
+    right: 22px;
+    bottom: 29px;
 }
