@@ -669,3 +669,34 @@ a {
     right: 22px;
     bottom: 29px;
 }
+
+/* Ready */
+.ready {
+    margin-top: 130px;
+    background: #DEF6F5;
+    padding: 76px 0 88px;
+}
+
+.ready .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+}
+
+.ready .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
+
+}
+
+.ready .started-btn {
+    background: var(--primary-color);
+    color: #fff;
+    min-width: 186px;
+    border-radius: 14px;
+    font-size: 1.8rem;
+    line-height: 68px;
+}
