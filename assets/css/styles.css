@@ -474,6 +474,7 @@ a {
     padding: 18px 25px 29px;
 
 }
+
 .list-courses .item .heading a {
     color: #0D1111;
 }
@@ -522,4 +523,28 @@ a {
     border-radius: 50%;
     margin-right: 10px;
     background-color: var(--primary-color);
+}
+
+/* Stats */
+.stats {
+    margin: 336px 0 264px;
+}
+
+.stats .list-stats {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73%;
+}
+
+.stats .item {
+    text-align: center;
+}
+
+.stats .desc {
+    margin-top: 11px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
 }
